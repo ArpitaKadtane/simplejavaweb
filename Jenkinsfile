@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/simplejavaweb.git'
+                git branch: 'main', url: 'https://github.com/ArpitaKadtane/simplejavaweb.git
+'
             }
         }
 
